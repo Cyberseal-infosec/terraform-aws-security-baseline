@@ -12,7 +12,7 @@ Each feature can be switched on or off with a variable.
 
 ```hcl
 module "security_baseline" {
-  source  = "<your-github-org>/security-baseline/aws"
+  source  = "Cyberseal-infosec/security-baseline/aws"
   version = "1.0.0"
 
   name_prefix = "acme-prod"
